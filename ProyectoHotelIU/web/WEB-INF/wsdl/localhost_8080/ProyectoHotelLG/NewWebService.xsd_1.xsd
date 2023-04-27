@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://PROYECTOWS/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://PROYECTOWS/">
+
+<xs:element name="Eliminar Habitacion" type="tns:Eliminar Habitacion"/>
+
+<xs:element name="Eliminar HabitacionResponse" type="tns:Eliminar HabitacionResponse"/>
+
+<xs:element name="Eliminar Trabajadores" type="tns:Eliminar Trabajadores"/>
+
+<xs:element name="Eliminar TrabajadoresResponse" type="tns:Eliminar TrabajadoresResponse"/>
+
+<xs:element name="Eliminar personas" type="tns:Eliminar personas"/>
+
+<xs:element name="Eliminar personasResponse" type="tns:Eliminar personasResponse"/>
+
+<xs:element name="Eliminar reserva" type="tns:Eliminar reserva"/>
+
+<xs:element name="Eliminar reservaResponse" type="tns:Eliminar reservaResponse"/>
+
+<xs:element name="Ingresar Habitacion" type="tns:Ingresar Habitacion"/>
+
+<xs:element name="Ingresar HabitacionResponse" type="tns:Ingresar HabitacionResponse"/>
+
+<xs:element name="Ingresar Reserva" type="tns:Ingresar Reserva"/>
+
+<xs:element name="Ingresar ReservaResponse" type="tns:Ingresar ReservaResponse"/>
+
+<xs:element name="Ingresar Trabajadores" type="tns:Ingresar Trabajadores"/>
+
+<xs:element name="Ingresar TrabajadoresResponse" type="tns:Ingresar TrabajadoresResponse"/>
+
+<xs:element name="Ingresar persona" type="tns:Ingresar persona"/>
+
+<xs:element name="Ingresar personaResponse" type="tns:Ingresar personaResponse"/>
+
+<xs:element name="Modificar Habitacion" type="tns:Modificar Habitacion"/>
+
+<xs:element name="Modificar HabitacionResponse" type="tns:Modificar HabitacionResponse"/>
+
+<xs:element name="Modificar Persona" type="tns:Modificar Persona"/>
+
+<xs:element name="Modificar PersonaResponse" type="tns:Modificar PersonaResponse"/>
+
+<xs:element name="Modificar Trabajador" type="tns:Modificar Trabajador"/>
+
+<xs:element name="Modificar TrabajadorResponse" type="tns:Modificar TrabajadorResponse"/>
+
+<xs:element name="Modificar reserva" type="tns:Modificar reserva"/>
+
+<xs:element name="Modificar reservaResponse" type="tns:Modificar reservaResponse"/>
+
+<xs:element name="Obtener Habitacion" type="tns:Obtener Habitacion"/>
+
+<xs:element name="Obtener HabitacionResponse" type="tns:Obtener HabitacionResponse"/>
+
+<xs:element name="Obtener Trabajador" type="tns:Obtener Trabajador"/>
+
+<xs:element name="Obtener TrabajadorResponse" type="tns:Obtener TrabajadorResponse"/>
+
+<xs:element name="Obtener personas" type="tns:Obtener personas"/>
+
+<xs:element name="Obtener personasResponse" type="tns:Obtener personasResponse"/>
+
+<xs:element name="Obtener reservan" type="tns:Obtener reservan"/>
+
+<xs:element name="Obtener reservanResponse" type="tns:Obtener reservanResponse"/>
+
+<xs:complexType name="Obtener Trabajador">
+<xs:sequence>
+<xs:element name="name" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Obtener TrabajadorResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar reserva">
+<xs:sequence>
+<xs:element name="data" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar reservaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar persona">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar personaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar Reserva">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar ReservaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Obtener personas">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Obtener personasResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Obtener reservan">
+<xs:sequence>
+<xs:element name="name" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Obtener reservanResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Obtener Habitacion">
+<xs:sequence>
+<xs:element name="name" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Obtener HabitacionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar Habitacion">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar HabitacionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar Trabajador">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar TrabajadorResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar Habitacion">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar HabitacionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar Habitacion">
+<xs:sequence>
+<xs:element name="data" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar HabitacionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar personas">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar personasResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar reserva">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar reservaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar Trabajadores">
+<xs:sequence>
+<xs:element name="data" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Eliminar TrabajadoresResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar Persona">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Modificar PersonaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar Trabajadores">
+<xs:sequence>
+<xs:element name="data" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Ingresar TrabajadoresResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
