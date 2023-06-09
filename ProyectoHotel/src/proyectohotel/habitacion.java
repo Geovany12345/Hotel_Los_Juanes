@@ -15,7 +15,6 @@ public class habitacion {
     Double precio;
     Integer piso;
     Integer numero_camas;
-
     String estadoh;
 
     public Integer getId_habitacion() {
