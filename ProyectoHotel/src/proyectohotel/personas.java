@@ -6,7 +6,7 @@
 package proyectohotel;
 
 /**
- *
+ * 
  * @author Yutokiva
  */
 public class personas {
